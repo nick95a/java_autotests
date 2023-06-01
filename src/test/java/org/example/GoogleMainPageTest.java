@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 public class GoogleMainPageTest {
 
+    // Test for navigation from google main page
     public static WebDriver driver;
     public static GoogleMainPage mainPage;
     public static String url = "https://google.com";
