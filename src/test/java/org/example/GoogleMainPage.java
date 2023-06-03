@@ -19,6 +19,12 @@ public class GoogleMainPage {
     @FindBy(xpath = "//*[contains(@class, 'gNO89b')]")
     private WebElement searchButton;
 
+    @FindBy(xpath = "//div[@aria-label = 'Поиск по картинке']")
+    private WebElement imageUploadButton;
+
+    @FindBy(xpath = "//span[@value = 'Поиск по картинке']")
+    private WebElement imageUploadLink;
+
     public void clickSearchField() {
         searchField.click();
     }
@@ -33,6 +39,10 @@ public class GoogleMainPage {
 
     public void clickSearchButton() {
         searchButton.click();
+    }
+
+    public void clickImageUploadButton() {
+        imageUploadButton.click();
     }
 
     public String getUrl() {

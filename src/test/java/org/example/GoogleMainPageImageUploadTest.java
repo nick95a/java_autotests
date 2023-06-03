@@ -32,11 +32,8 @@ public class GoogleMainPageImageUploadTest {
     @Test
     public void clickTest() {
 
-        mainPage.clickSearchField();
-        mainPage.inputSearchField(searchText);
-        mainPage.clickSearchButton();
-        driver.get(url);
-        String currentUrl = mainPage.getUrl();
+        mainPage.clickImageUploadButton();
+
         try {
             Assert.assertNotEquals(url, currentUrl);
             System.out.println("Test passed: Back at home page");
