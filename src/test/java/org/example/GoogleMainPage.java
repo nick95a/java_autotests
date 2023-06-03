@@ -27,6 +27,10 @@ public class GoogleMainPage {
         searchField.sendKeys(search);
     }
 
+    public String getSearchFieldText() {
+        return searchField.getAttribute("innerHTML");
+    }
+
     public void clickSearchButton() {
         searchButton.click();
     }
