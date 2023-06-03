@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class GoogleMainPageTest {
+public class GoogleMainPageNavigationAwayTest {
 
     // Test for navigation from google main page
     public static WebDriver driver;
