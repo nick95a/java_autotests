@@ -28,7 +28,7 @@ public class GoogleMainPage {
     }
 
     public String getSearchFieldText() {
-        return searchField.getAttribute("innerHTML");
+        return searchField.getAttribute("value");
     }
 
     public void clickSearchButton() {
