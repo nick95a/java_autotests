@@ -22,7 +22,7 @@ public class GoogleMainPage {
     @FindBy(xpath = "//div[@aria-label = 'Поиск по картинке']")
     private WebElement imageUploadButton;
 
-    @FindBy(xpath = "//span[@value = 'Поиск по картинке']")
+    @FindBy(xpath = "//span[text()='загрузите файл']")
     private WebElement imageUploadLink;
 
     public void clickSearchField() {
